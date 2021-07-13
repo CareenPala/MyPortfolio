@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            portfolio
+        </title>
+        <link rel="stylesheet" href="./css/css.css">
+        <link rel="shortcut icon" href="./images/logo1.PNG">
+
+
+    </head>
+   
+    <body>
+        <div class="site-main-wrapper">
+            <button class="burger">
+                <img src="./images/list.png">
+            </button>
+
+            <div class="mobile-nav">
+
+                <button class="times" ><img src="./images/cancel.png"></button>
+                <div class="branding">
+                    <img src="./images/logo1.PNG" >
+                </div>
+
+                <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn btn-secondary">Contact</a></li>
+                </ul>
+
+                
+
+            </div>
+       
+
+
+    <header> 
+        <div class="container">
+        <nav id="main-nav" class="flex items-center justify-between " >
+            <div class="left flex items-center">
+                <div class="branding">
+                    <img src="./images/logo1.PNG" >
+                </div>
+                
+                <a href="">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                
+               
+            </div>
+            <div class="right">
+                <a href="#contact" class="btn btn-primary">Contact</a>
+            </div>   
+        </nav>
+
+        <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+                <img src="./images/c2.PNG" alt="">
+
+            </div>
+        <div class="right flex-1">
+            <h6>Hi there !</h6>
+            <h2>I'm Careen Pala</h2>
+            <p>Run into my CV to know more..</p>
+            <form method="get" action="./cv/CV_2021-03-12-054237.pdf">
+            <div class="btn1">
+                <button class="btn btn-secondary" type="submit">Download CV</button>
+            </div>
+        </form>
+
+        </div>
+
+            
+        </div>
+    </div>
+
+
+    </header>
+
+
+    <section>
+        <div id="about" class="about">
+                <div class="container flex items-center justify-between">
+                    <div class="left flex-1">
+                        <img  src="./images/about.PNG" alt="">
+                       
+                    </div>
+                    <div class="right flex-1"> 
+                        <h1>I am a <span>Software developer</span>, a<span> Cynophile</span> and an <span>Aesthete</span></h1><br>
+                        <h2>I was born and brought up in Meghalaya,Shillong.</h2><br>
+                        <p> Be sure to email or follow me on all of my social media accounts!</p>
+                       
+                    
+                    <div class="social align-items">
+                        <a href="mailto:careenpala32@gmail.com"><img src="./images/email.png"></a>
+                        <a href="https://www.facebook.com/careen.pala.7"><img src="./images/facebook-logo.png"></a>
+                        <a href="https://www.instagram.com/_baseurl_careen"><img src="./images/instagram.png"></a>
+                        <a href="https://www.linkedin.com/in/careen-pala-994478152"><img src="./images/linkedin.png"></a>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1 class="section-heading">My Skills </h1>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/web-design.png">
+                    <h2>Web Design</h2>
+                </div>
+                <div class="card">
+                    <img src="./images/web-programming (1).png">
+                    <h2>Web Development</h2>
+                </div>
+                <div class="card">
+                    <img src="./images/cloud-storage.png">
+                    <h2>IoT</h2>
+                </div>
+                <div class="card">
+                    <img src="./images/smartphone.png">
+                    <h2>Android App Development</h2>
+                </div>
+                <div class="card">
+                    <img src="./images/retouch.png">
+                    <h2>Photoshop</h2>
+                </div>
+                <div class="card">
+                    <img src="./images/wordpress.png">
+                    <h2>Wordpress</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h1 class="section-heading">Projects</h1>
+            <div class="card-wrapper">
+                
+                <div class="card ">
+                    <div class="overlay">
+                        <a href="https://app.techsoul.in/csrm/CSRM/">Customer Sales Portal (Web application)</a>
+                     </div>
+                     <img src="./images/csrm.PNG" alt="">
+                    
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                       <a href="#">My Digital Journal (Android App)</a>
+                    </div>
+                    <img src="./images/ph.PNG" alt="">
+                  
+               </div>
+                <div class="card">
+                    <div class="overlay">
+                        <a href="#">Wordpress application</a>
+                     </div>
+                    <img src="./images/wd.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="section-heading"> Contact me </h1>
+
+            <form id="my-form" action="https://formspree.io/f/mnqorlzp" method="POST">
+                <div class="input-wrap">
+                     <input type="text" name="name" placeholder="Your name?" required>
+                     <input type="email" name="_replyto" id="email" placeholder="Your email id" required>
+                </div>
+
+                <div class="input-wrap-2">
+                     <textarea  placeholder="Your Message..." required></textarea>
+                </div>
+
+                <div class="btn-wrapper">
+                     <button type="submit" class="btn btn-primary">Send Message</button>
+                 </div>
+            </form>
+            <div id="status"></div>
+
+
+        </div>
+    </section>
+    <footer>
+
+        <img class="footer-logo" src="./images/logo1.PNG" alt="">
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/careen.pala.7"><img src="./images/facebook-logo.png" alt=""></a>
+            <a href="https://www.instagram.com/_baseurl_careen"><img src="./images/instagram.png" alt=""></a> 
+            <a href="https://www.linkedin.com/in/careen-pala-994478152"><img src="./images/linkedin.png" alt=""></a>
+        </div>
+        <div>All Rights Reserved.</div>
+    </footer>
+</div>
+
+    </body>
+    <script src="./js/main.js"></script>
+    <script src="./js/nav.js"></script>
+    
+</html>
